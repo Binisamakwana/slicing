@@ -15,3 +15,7 @@ else:
 
     print(f"The weather in {user_input} is: {weather}")
     print(f"The temperature in {user_input} is: {temp}ºF")
+
+fer = float(input('Enter Fahrenheit  Temprature: '))
+    cel = (fer-32)*5/9
+    print('celsius temperature: {0}' .format(cel))
